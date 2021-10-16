@@ -5,6 +5,7 @@ import { FaCode, FaRunning } from "react-icons/all";
 import { useForm, FormActions } from "../../contexts/FormContext";
 import { FormTheme } from "../../components/FormTheme";
 import { SelectOption } from "../../components/SelectOption";
+
 import * as C from "./styles";
 
 export function FormStep2() {

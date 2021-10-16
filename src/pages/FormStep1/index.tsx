@@ -1,8 +1,10 @@
 import { toast, Toaster } from "react-hot-toast";
 import { ChangeEvent, useEffect } from "react";
-import { FormTheme } from "../../components/FormTheme";
 import { useHistory } from "react-router-dom";
+
+import { FormTheme } from "../../components/FormTheme";
 import { useForm, FormActions } from "../../contexts/FormContext";
+
 import * as C from "./styles";
 
 export function FormStep1() {

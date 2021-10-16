@@ -1,7 +1,7 @@
 import { toast, Toaster } from "react-hot-toast";
 import { ChangeEvent, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
-import { BiUserCircle, FaGithub, HiOutlineMail } from "react-icons/all";
+import { FaGithub, FaUserCircle, HiOutlineMail } from "react-icons/all";
 
 import { FormTheme } from "../../components/FormTheme";
 import { useForm, FormActions } from "../../contexts/FormContext";
@@ -43,14 +43,16 @@ export function FormStep3() {
         () => (
           <C.DivSpan>
             <C.Span>
-              <BiUserCircle size="25" /> <C.SpanTitle>{state.name}</C.SpanTitle>
+              <FaUserCircle size="25" />
+              <C.SpanTitle>{state.name}</C.SpanTitle>
             </C.Span>
             <C.Span>
-              <HiOutlineMail size="25" />{" "}
+              <HiOutlineMail size="25" />
               <C.SpanTitle>{state.email}</C.SpanTitle>
             </C.Span>
             <C.Span>
-              <FaGithub size="25" /> <C.SpanTitle>{state.github}</C.SpanTitle>
+              <FaGithub size="25" />
+              <C.SpanTitle>{state.github}</C.SpanTitle>
             </C.Span>
           </C.DivSpan>
         ),
