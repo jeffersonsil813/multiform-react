@@ -44,16 +44,12 @@ export const Container = styled.div`
     background-color: var(--purple);
     color: var(--light);
     font-size: 15px;
-    height: 45px;
     outline: none;
     border: 0;
     border-radius: 9999px;
     text-align: center;
-    padding: 20px 50px;
+    padding: 15px 50px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 30px 0;
     cursor: pointer;
 

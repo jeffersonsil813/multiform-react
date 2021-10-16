@@ -14,11 +14,6 @@ export function FormStep1() {
       type: FormActions.setCurrentStep,
       payload: 1,
     });
-
-    dispatch({
-      type: FormActions.setName,
-      payload: "",
-    });
   }, []);
 
   const formatName = (value: string) => {
