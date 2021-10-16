@@ -1,4 +1,3 @@
-import { toast, Toaster } from "react-hot-toast";
 import { useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FaCode, FaRunning } from "react-icons/all";
@@ -24,13 +23,7 @@ export function FormStep2() {
   }, []);
 
   const handleNextStep = () => {
-    if (state.name.trim() !== "") {
-      history.push("/step3");
-    } else {
-      toast.error("Por favor, selecione um nível!", {
-        duration: 3000,
-      });
-    }
+    history.push("/step3");
   };
 
   const setLevel = (level: number) => {
@@ -69,8 +62,6 @@ export function FormStep2() {
         </Link>
         <button onClick={handleNextStep}>Próximo</button>
       </C.Container>
-
-      <Toaster />
     </FormTheme>
   );
 }
