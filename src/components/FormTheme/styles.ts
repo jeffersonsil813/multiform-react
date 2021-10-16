@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Area = styled.div`
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

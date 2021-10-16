@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--light-gray);
   }
 `;
