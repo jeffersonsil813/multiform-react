@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+<h1 align="center">Multiform React</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+    <a href="#introduction">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#tecnologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#install">Instalação</a>&nbsp;&nbsp;&nbsp;
+</div>
 
-## Available Scripts
+<br >
 
-In the project directory, you can run:
+<div align="center">
+  <img src="./github/app.png" width="800px" />
+</div>
 
-### `yarn start`
+<h3 id="introduction">🏁 Introdução</h3>
+<p>A aplicação consiste em se trabalhar com um formulário de etapas, enquanto os dados fornecidos são compartilhados através da Context API do React.<br/>
+Esse projeto é baseado no vídeo <a href="https://www.youtube.com/watch?v=W1Ed9TEMGJU">Formulário multi-etapas em React.</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3 id="tecnologies">🚀 Tecnologias</h3>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React JS](https://pt-br.reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Styled-Components](https://styled-components.com)
+- [React-Hot-Toast](https://react-hot-toast.com/)
 
-### `yarn test`
+<h3 id="install">&#128187; Como instalar?</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório usando o `git clone`
+2. Entre na pasta do projeto
+3. Execute o comando `npm install` para instalar as dependências
+4. Rode a aplicação com o comando `npm start` ou se preferir `yarn start`
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h6>
+    Follow me on social media 
+    <a href="https://www.facebook.com/profile.php?id=100011801194873">
+        <img src="./github/facebook.png" />
+    </a>
+    <a href="https://www.linkedin.com/in/jeffersonsil813/">
+        <img src="./github/linkedin.png" />
+    </a>
+    <a href="https://www.instagram.com/jefferson.sil813/">
+        <img src="./github/instagram.png"/>
+    </a>
+</h6>
